@@ -45,7 +45,7 @@ main {
   justify-content: space-between;
 }
 
-.flex-container, main aside, main .principal, main .container, header nav, header, main, footer {
+.flex-container, main aside, main .container, header nav, header, main, footer {
   display: flex;
   justify-content: space-between;
 }
@@ -94,6 +94,8 @@ main .container {
   gap: 30px;
 }
 main .principal {
+  display: flex;
+  justify-content: space-between;
   flex-grow: 1;
   background-color: #4E4E6A;
   flex-wrap: wrap;
@@ -132,11 +134,17 @@ footer .container .pie {
 }
 
 @media (max-width: 768px) {
-  .flex-container, header, main, footer, header nav, main .container, main .principal, main aside {
+  .flex-container, header, main, footer, header nav, main .container, main aside {
     flex-direction: column;
     flex-wrap: nowrap;
   }
   * {
     flex-basis: 100%;
+  }
+}
+@media (max-width: 600px) {
+  main .principal {
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 }/*# sourceMappingURL=styles.css.map */

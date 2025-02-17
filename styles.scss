@@ -62,7 +62,7 @@ main{
 header, main, footer {
     @extend .flex-container;
     align-items:stretch;
-    
+
     .container{
         padding:$spacing;
         background-color: $spacing-color;
@@ -108,7 +108,8 @@ main{
         gap:$spacing;
     }
     .principal{
-        @extend .flex-container;  
+        display:flex;
+        justify-content: space-between;
         flex-grow:1;
         background-color: #4E4E6A;
         flex-wrap: wrap;
@@ -160,6 +161,12 @@ footer{
     }
     * {
         flex-basis:100%
+    }
+}
+@media (max-width: 600px) {
+    main .principal{
+        flex-direction: column;
+        flex-wrap:nowrap
     }
 }
 
