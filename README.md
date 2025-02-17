@@ -63,16 +63,6 @@ Cada ejercicio debe estar reflejado en un commit distinto.
 
 - Utilizar la propiedad `animation` de CSS para que, al hacer `hover` sobre el primer `div`, cambie de tamaño y color.
 
-## Entrega
 
-- Subir el código a un repositorio de GitHub.
-- Cada ejercicio debe estar en un commit independiente.
-- Se recomienda utilizar Visual Studio Code para gestionar Git.
-
-## Recursos adicionales
-
-- [Visual Studio Code y Git](https://code.visualstudio.com/docs/editor/versioncontrol)
-- [Guía de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Media Queries en Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
 
 
