@@ -133,7 +133,19 @@ footer .container .pie {
   padding: 10px;
 }
 
+.anim {
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+.anim:hover {
+  transform: scale(1.4);
+  background-color: #FF1493;
+}
+
 @media (max-width: 768px) {
+  body {
+    background-color: #0f9321;
+  }
   .flex-container, header, main, footer, header nav, main .container, main aside {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -143,6 +155,9 @@ footer .container .pie {
   }
 }
 @media (max-width: 600px) {
+  body {
+    background-color: #0f4a93;
+  }
   main .principal {
     flex-direction: column;
     flex-wrap: nowrap;

@@ -1,5 +1,7 @@
 // Colors
 $bg-color: #fff;
+$bg-color-tablet: #0f9321;
+$bg-color-mobile: #0f4a93;
 $primary-color: #3c842f;
 $secondary-color: #b4cb1a;
 $text-color: #1b1b1b;
@@ -154,7 +156,18 @@ footer{
         
     }
 }
+.anim{
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.4);
+        background-color: #FF1493;
+    }
+}
 @media (max-width: 768px) {
+    body{
+        background-color: $bg-color-tablet;
+    }
     .flex-container {
         flex-direction: column;
         flex-wrap:nowrap
@@ -164,6 +177,9 @@ footer{
     }
 }
 @media (max-width: 600px) {
+    body{
+        background-color: $bg-color-mobile;
+    }
     main .principal{
         flex-direction: column;
         flex-wrap:nowrap
