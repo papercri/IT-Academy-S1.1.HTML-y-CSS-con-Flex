@@ -32,10 +32,6 @@ body {
 }
 
 
-div, section, aside, nav, article {
-    display: block;
-}
-
 header, footer, main {
     width: 100%;
     display: flex;
@@ -59,16 +55,6 @@ main{
     justify-content: space-between;
 }
 
-.flex-item {
-    flex: 1;
-    min-width: 300px;
-    padding: 10px;
-}
-
-.empty-container {
-    min-height: 100px;
-    background-color: $box-bg;
-}
 header, main, footer {
     @extend .flex-container;
     align-items:stretch;
@@ -79,7 +65,7 @@ header, main, footer {
     }
 }
 header, main{
-    margin-bottom: $padding;
+    margin-bottom: $spacing;
 }
 header {
     .container{
@@ -90,6 +76,7 @@ header {
         @extend .flex-container;  
         background-color: #2C4059;
         margin-bottom: $spacing;
+        gap:$padding; 
     }
     .logo, .nav, .social {
         background-color: #EA5455;
@@ -111,12 +98,64 @@ header {
     }
 }
 main{
+    .container{
+        @extend .flex-container;
+        flex-wrap: nowrap;
+        gap:$spacing;
+    }
+    .principal{
+        @extend .flex-container;  
+        flex-grow:1;
+        background-color: #4E4E6A;
+        flex-wrap: wrap;
+        padding:$spacing;
+        gap:$spacing;
+        article{
+            background-color: #1F6CB0;
+            padding:$padding;
+            flex-basis: calc(50% - 15px);
+           
+        }
+        .navegacion{
+            flex-grow:1;
+            flex-basis:100%;
+            padding:$padding;
+            background-color: #71A3C4;
+        }
+    }
+    aside{
+        @extend .flex-container;
+        background-color: #F63F51;
+        padding:$spacing;
+        display: flex;
+        flex-wrap: wrap;
+        align-content:flex-start;
+        gap:$padding;
+        .publicidad{
+            background-color: #FED700;
+            padding:$padding;
+            flex-basis: 100%;
+        }
+    }
 
 }
-
+footer{
+    .container{
+        .pie{
+            background-color: #F0E78C;
+            width:100%;
+            padding:$padding;
+        }
+        
+    }
+}
 @media (max-width: 768px) {
     .flex-container {
         flex-direction: column;
+        flex-wrap:nowrap
+    }
+    * {
+        flex-basis:100%
     }
 }
 
