@@ -2,12 +2,24 @@
 
 ## Descripción
 
-Este proyecto consiste en la creación de un layout responsive utilizando HTML y CSS con Flexbox. La maquetación debe adaptarse a distintos dispositivos: escritorio, tableta y móvil, siguiendo las indicaciones de los wireframes proporcionados.
+Este proyecto consiste en la creación de un layout responsive utilizando HTML y CSS con Flexbox. La maquetación se adapta a distintos dispositivos: escritorio, tableta y móvil, siguiendo las indicaciones de los wireframes proporcionados.
 
 ## Tecnologías utilizadas
 
 - HTML
-- CSS (Flexbox y Media Queries)
+- CSS (Flexbox, Scss y Media Queries)
+
+## Instrucciones de instalación y ejecución
+
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/papercri/IT_Academy_S1.1.HTML_y-CSS_con_Flex.git
+   ```
+2. Acceder al directorio del proyecto:
+   ```sh
+   cd IT_Academy_S1.1.HTML_y-CSS_con_Flex
+   ```
+3. Abrir el archivo `index.html` en el navegador.
 
 ## Requisitos previos
 
@@ -26,14 +38,15 @@ Para facilitar la resolución de esta práctica, es recomendable tener conocimie
 
 ## Estructura del repositorio
 
-Se debe crear un único repositorio en GitHub para los tres niveles, incluyendo:
+El repositorio debe contar con:
 
-- Un único archivo `index.html`
-- Un único archivo `styles.css`
+- Un archivo `index.html`.
+- Un archivo `styles.css`.
+- Una carpeta `img/` para almacenar capturas de pantalla.
 
-Cada ejercicio debe estar reflejado en un commit distinto.
+Cada ejercicio debe estar reflejado en un commit distinto con mensajes descriptivos.
 
-## Ejercicios
+## Features principales
 
 ### **Nivel 1**
 
@@ -57,12 +70,19 @@ Cada ejercicio debe estar reflejado en un commit distinto.
 
 - Modificar el color de fondo de la web dependiendo del ancho del dispositivo (escritorio, tableta y móvil).
 
+**Ejemplo de visualización:**
+
+- **Versión Desktop**  
+  ![Versión Desktop](/img/desktop.jpg)
+
+- **Versión Tablet**  
+  ![Versión Tablet](/img/tablet.jpg)
+
+- **Versión Mobile**  
+  ![Versión Mobile](/img/mobile.jpg)
+
 ### **Nivel 3**
 
 #### **Ejercicio 5**
 
 - Utilizar la propiedad `animation` de CSS para que, al hacer `hover` sobre el primer `div`, cambie de tamaño y color.
-
-
-
-
