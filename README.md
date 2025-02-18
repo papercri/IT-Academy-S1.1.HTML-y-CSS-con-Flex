@@ -73,13 +73,13 @@ Cada ejercicio debe estar reflejado en un commit distinto con mensajes descripti
 **Ejemplo de visualización:**
 
 - **Versión Desktop**  
-  ![Versión Desktop](/img/desktop.jpg)
+  ![Versión Desktop](/img/desktop.png)
 
 - **Versión Tablet**  
-  ![Versión Tablet](/img/tablet.jpg)
+  ![Versión Tablet](/img/tablet.png)
 
 - **Versión Mobile**  
-  ![Versión Mobile](/img/mobile.jpg)
+  ![Versión Mobile](/img/mobile.png)
 
 ### **Nivel 3**
 
