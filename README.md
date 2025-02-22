@@ -13,11 +13,11 @@ Este proyecto consiste en la creación de un layout responsive utilizando HTML y
 
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/papercri/IT_Academy_S1.1.HTML_y-CSS_con_Flex.git
+   git clone https://github.com/papercri/IT-Academy-S1.1.HTML-y-CSS-con-Flex.git
    ```
 2. Acceder al directorio del proyecto:
    ```sh
-   cd IT_Academy_S1.1.HTML_y-CSS_con_Flex
+   cd IT-Academy-S1.1.HTML-y-CSS-con-Flex
    ```
 3. Abrir el archivo `index.html` en el navegador.
 
